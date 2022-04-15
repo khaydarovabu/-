@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+ background-color: #f1f1f1;
+ color: #0f141e;
+ font-size: 16px;
+ font-weight: normal;
+ font-family: 'Roboto', sans-serif;
+ /*font-family:'Times New Roman', Times, serif;*/
+}
+.aby {
+  width: 170px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+.bakr p {
+  color: rgb(171, 168, 165);
+  margin: 0px ;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration:none;
+  /*text-transform: unset;*/
+  /*letter-spacing: 20px;*/
+  /* word-spacing: 50px; */
+}
+.veyder {
+max-width: 75%;
+margin: auto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+.bakr {
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+@media (max-width: 700px) {
+  .bakr {
+    display: block;
+    text-align: center; 
+  }
+  
+}
+.blok {
+  margin-left: 40px;
+}
+
+
+.d-yellow {
+  background: #f2e8b6;
+
+}
+.d-green {
+  background: #e5ffe7;
+}
+.d-red {
+  background: #ffe5e5;
+}
+.d-blue {
+  background: #bfbaeb;
+}
+
+.pro {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list { 
+  list-style: none;
+  padding: 0;
+}
+.list li {
+  margin-bottom: 7px;
+  color: rgb(109, 156, 156);
+}
+.hobbi {
+  list-style: none;
+  padding: 0;
+}
+.hobbi li {
+  margin-bottom: 7px;
+  color: rgb(172, 172, 108);
+}
+.kyrs {
+  padding: 0;
+}
+.kyrs li {
+  margin-bottom: 7px;
+  list-style: none;
+}
+.kyrs a {
+  color: rgb(167, 98, 58);
+}
+.contakt h3 {
+  text-align: center;
+}
+.qw label {
+display: block;
+font-size: 14px;
+color: #221a6e;
+}
+
+.qw input,
+.qw textarea {
+  width: 100% ;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.qwe { 
+display: flex;
+margin-bottom: 20px;
+}
+.qwe > .qw {
+  width: 50%;
+ 
+}
+.qwe > .qw:first-child {
+  margin-right: 20px;
+}
+
+.qwer { 
+  color: #2d1cc4;
+  background: #a3e9ad;
+  padding: 10px 15px;
+  border: none;
+  font-family: inherit;
+  cursor:pointer ;
+}
+.qwer:hover {
+  opacity: 0.9;
+}
+
